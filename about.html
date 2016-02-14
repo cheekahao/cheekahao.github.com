@@ -1,0 +1,89 @@
+---
+layout: page
+title: "关于我"
+description: "半路出家的前端一枚"
+header-img: "img/about-bg.jpg"
+---
+
+
+<!-- Chinese Version -->
+<div class="zh">
+    <blockquote>
+        半路出家的前端一枚。
+    </blockquote>
+    2014年3月，在一个朋友的帮助下，开始接触前端，也渐渐的开始爱上前端这个职业。
+    <br><br>
+    2015年3月，在自学了一年的前端之后，决定从实体行业转行，4月进入现在的公司，开始职业撸代码，搞兼容，斗bug，痛并快乐着。。。
+    <br><br>
+    接触前端开发两年，才发现能够在前端技术蓬勃大发展的时候入行，深感荣幸。
+    <br>
+    同时也倍感压力，面对日新月异的前端技术，层出不穷的前端工具，不求弄潮于时代，只求成为一名不落伍的合格前端。
+    <br><br>
+
+    <p>
+        —— <a href="http://cheekahao.github.io/resume/">我的简历</a>
+    </p>
+
+</div>
+
+{% if site.duoshuo_username %}
+<!-- 多说评论框 start -->
+<div class="comment">
+    <div class="ds-thread"
+    {% if site.duoshuo_username == "huxblog" %}
+        data-thread-id="1187623191091085319"
+    {% else %}
+        data-thread-key="{{site.duoshuo_username}}/about"
+    {% endif %}
+
+    data-title="{{page.title}}"
+    data-url="{{site.url}}/about/"></div>
+</div>
+<!-- 多说评论框 end -->
+
+<!-- Duoshuo hacking -->
+<input id="dsUser" type="hidden" value="{{site.duoshuo_username}}"  />
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    // dynamic User hacking by Hux
+    var _user = document.getElementById('dsUser').value;
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+{% endif %}
+
+
+{% if site.disqus_username %}
+<!-- disqus 评论框 start -->
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
