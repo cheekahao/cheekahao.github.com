@@ -36,12 +36,14 @@
   border-color: #0085a1;
 }
 .sidebar-container .short-about img {
-  width: 80%;
+  width: 60%;
   display: block;
   border-radius: 5px;
   margin-bottom: 20px;
+  margin: 0 auto;
 }
 .sidebar-container .short-about p {
+  padding-top: 10px;
   margin-top: 0px;
   margin-bottom: 20px;
 }
