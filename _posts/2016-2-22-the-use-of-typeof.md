@@ -2,7 +2,7 @@
 layout:     post
 title:      "关于typeof运算符，以及null与undefined"
 subtitle:   ""
-date:       2016-02-17
+date:       2016-02-22
 author:     "cheekahao"
 header-img: ""
 tags:
