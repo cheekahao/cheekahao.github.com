@@ -6,9 +6,11 @@ date:       2016-02-17
 author:     "cheekahao"
 header-img: ""
 tags:
-    - input
-    - css
-    - html
+    - javascript
+    - 学习笔记
+    - typeof
+	- null
+	- undefined
 ---
 
 今天面试，遇到个面试题，答错了，回来查了下资料，记录下来已被后面查看。
