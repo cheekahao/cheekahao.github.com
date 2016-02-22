@@ -9,6 +9,8 @@ tags:
     - javascript
     - 学习笔记
     - typeof
+	- null
+	- undefined
 ---
 
 
