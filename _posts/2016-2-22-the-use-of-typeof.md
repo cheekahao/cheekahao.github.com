@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "关于typeof运算符，以及null与undefined"
-subtitle:   ""
-date:       2016-02-22
+title:      "javascript学习笔记之 typeof"
+subtitle:   "关于typeof运算符，以及null与undefined"
+date:       2016-02-28
 author:     "cheekahao"
 header-img: ""
 tags:
